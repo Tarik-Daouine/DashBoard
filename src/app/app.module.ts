@@ -10,6 +10,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { NavBarLeftComponent } from './nav-bar-left/nav-bar-left.component';
 import { PasswordLostComponent } from './password-lost/password-lost.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
     NavBarComponent,
     NavBarLeftComponent,
     PasswordLostComponent,
-    SearchBarComponent
+    SearchBarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
